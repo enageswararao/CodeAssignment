@@ -5,8 +5,9 @@ TestNG is used as test framework.
 
 Installation :
 
-Clone
+
 Clone this repository to your local machine using the command below:
+
 	$ git clone https://github.com/enageswararao/CodeAssignment.git
 	
 Execution
