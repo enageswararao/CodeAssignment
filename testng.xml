@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="weatherInfo Suite">
+<test name="weatherInfo TestCase">
+    <parameter name="broswer" value="chrome"/>
+
+    <classes>
+        <class name="testcases.WeatherInfromationTest"/>
+    </classes>
+</test>
+
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [weatherInfo Suite]">
+  <test thread-count="5" verbose="0" name="weatherInfo TestCase(failed)">
+    <parameter name="broswer" value="chrome"/>
+    <classes>
+      <class name="testcases.WeatherInfromationTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="weatherInfo" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- testcases.WeatherInfromationTest -->
+    </classes>
+  </test> <!-- weatherInfo TestCase(failed) -->
+</suite> <!-- Failed suite [weatherInfo Suite] -->
